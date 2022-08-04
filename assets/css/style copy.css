@@ -1,0 +1,50 @@
+* {
+    transition: 100ms ease-in;
+}
+.totalProduct{
+    text-align: center;    
+}
+.sumProduct{
+    text-align: center;
+}
+#totalProduct{
+    background-color: rgb(38, 179, 106);
+    color: #fff;
+}
+#categories{
+    background-color: rgb(58, 90, 222);
+    color: #fff;
+}
+#return{
+    background-color: rgb(89, 114, 212);
+    color: #fff;
+}
+#inventories{
+    background-color: rgb(133, 146, 131);
+    color: #fff;
+
+}
+#logout{
+    color: #fff;
+    cursor: pointer;
+    background: rgb(16, 1, 83);
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+
+
