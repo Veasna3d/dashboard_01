@@ -9,7 +9,7 @@ body {
     font-size:13px;
 }
 
-* {
+* { 
     transition: 10ms ease-in;
 }
 .totalProduct{
